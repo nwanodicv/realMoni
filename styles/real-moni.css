@@ -1,0 +1,112 @@
+* {
+    min-width: 30px;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(12, 9, 12);
+    height: 44px;
+    width: 10vh;
+
+}
+
+
+header, main, footer {
+    width: 44rem;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: .2rem;
+}
+
+.content-container {
+    display: flex;
+    column-gap: .8rem;
+}
+
+.flex-box {
+    border-style: groove;
+    width: 4.5rem;
+    height: 3rem;
+    font-size: .7rem;
+    text-align: center;
+    color: rgba(253, 57, 148, 0.973);
+    border-color: rgba(253, 57, 148, 0.973);
+}
+
+.flex2 {
+    font-size: 1.3rem;
+}
+
+/*hamburger menu styling  -----------------------*/
+header {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    border-style: groove;
+    width: 16rem;
+    font-size: .7rem;
+    color: rgba(253, 57, 148, 0.973);
+    border-color: rgba(253, 57, 148, 0.973);
+}
+
+
+header a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+header .nav-bar-container {
+    background-color: rgba(253, 57, 148, 0.973);
+    display: none;
+    justify-content: space-evenly;
+}
+
+header a.icon {
+    color: rgba(253, 57, 148, 0.973);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+header a:hover {
+    color:rgba(146, 19, 78, 0.973)
+}
+
+.active {
+    color: rgba(253, 57, 148, 0.973);
+    width: 3rem;
+    opacity: 60%;
+}
+/*-----------------------------------------------------*/
+
+.footer-flex-box {
+    margin-left: .2rem;
+    margin-top: .8rem;
+    border-style: groove;
+    width: 4rem;
+    height: 1rem;
+    font-size: .7rem;
+    text-align: center;
+    color: rgba(253, 57, 148, 0.973);
+    border-color: rgba(253, 57, 148, 0.973);
+}
+
+footer {
+    display: flex;
+    margin-top: 2rem;
+    border-style: groove;
+    column-gap: 1rem;
+    width: 16rem;
+    height: 3rem;
+    font-size: .7rem;
+    text-align: center;
+    color: rgba(253, 57, 148, 0.973);
+    border-color: rgba(253, 57, 148, 0.973);
+}
